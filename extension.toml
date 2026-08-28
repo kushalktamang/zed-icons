@@ -1,0 +1,6 @@
+id = "yeti-icons"
+name = "Yeti Icons"
+version = "0.1.0"
+schema_version = 1
+authors = "moks"
+description = "A charming icon theme fork again in my choices for Zed"
