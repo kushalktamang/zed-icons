@@ -53,6 +53,7 @@
         ".commitlint.yaml": "config",
         ".commitlint.yml": "config",
         ".editorconfig": "config",
+        ".env": "env",
         ".env.defaults": "env",
         ".env.example": "env",
         ".env.sample": "env",
@@ -102,16 +103,16 @@
         ".huskyrc.js": "config",
         ".huskyrc.yaml": "config",
         ".huskyrc.yml": "config",
-        ".prettierrc": "config",
-        ".prettierrc.js": "config",
-        ".prettierrc.cjs": "config",
-        ".prettierrc.json": "config",
-        ".prettierrc.json5": "config",
+        ".prettierrc": "prettier",
+        ".prettierrc.js": "prettier",
+        ".prettierrc.cjs": "prettier",
+        ".prettierrc.json": "prettier",
+        ".prettierrc.json5": "prettier",
         ".prettierrc.yaml": "config",
-        ".prettierrc.yml": "config",
-        ".prettierrc.toml": "config",
-        ".prettierrc.mjs": "config",
-        ".prettierignore": "config",
+        ".prettierrc.yml": "prettier",
+        ".prettierrc.toml": "prettier",
+        ".prettierrc.mjs": "prettier",
+        ".prettierignore": "prettier-ignore",
         "dockerfile": "docker",
         "dockerfile.prod": "docker",
         "dockerfile.production": "docker",
@@ -328,13 +329,13 @@
         "next.config.ts": "next",
         "next.config.mts": "next",
         "flake.lock": "nix",
-        "package.json": "node",
+        "package.json": "npm",
         ".nvmrc": "node",
         ".esmrc": "node",
         ".node-version": "node",
-        "pnpm-lock.yaml": "node",
-        "pnpm-workspace.yaml": "node",
-        ".pnpmfile.cjs": "node",
+        "pnpm-lock.yaml": "pnpm-lock",
+        "pnpm-workspace.yaml": "pnpm",
+        ".pnpmfile.cjs": "pnpm",
         "package-lock.json": "npm-lock",
         ".npmignore": "npm",
         ".npmrc": "npm",
@@ -343,6 +344,7 @@
         "nuxt.config.js": "nuxt",
         "nuxt.config.ts": "nuxt",
         ".oxlintrc.json": "oxlint",
+        ".oxfmtrc.json": "oxlint",
         "aftman.toml": "package-config",
         "cargo.toml": "package-config",
         "composer.json": "package-config",
@@ -1249,8 +1251,20 @@
         "php": {
           "path": "./icons/dark/php.svg"
         },
+          "pnpm": {
+          "path": "./icons/dark/pnpm.svg"
+        },
+          "pnpm-lock": {
+          "path": "./icons/dark/pnpmlock.svg"
+        },
         "powershell": {
           "path": "./icons/dark/powershell.svg"
+        },
+          "prettier": {
+          "path": "./icons/dark/prettier.svg"
+        },
+          "prettier-ignore": {
+          "path": "./icons/dark/prettierignore.svg"
         },
         "prisma": {
           "path": "./icons/dark/prisma.svg"
@@ -1340,7 +1354,7 @@
           "path": "./icons/dark/turbo.svg"
         },
         "typescript-config": {
-          "path": "./icons/dark/typescript-config.svg"
+          "path": "./icons/dark/tsconfig.svg"
         },
         "typescript-def": {
           "path": "./icons/dark/typescript-def.svg"
