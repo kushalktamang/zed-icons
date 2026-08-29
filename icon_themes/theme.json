@@ -329,7 +329,7 @@
         "next.config.ts": "next",
         "next.config.mts": "next",
         "flake.lock": "nix",
-        "package.json": "npm",
+        "package.json": "nodejs",
         ".nvmrc": "node",
         ".esmrc": "node",
         ".node-version": "node",
@@ -343,8 +343,8 @@
         ".nuxtrc": "nuxt",
         "nuxt.config.js": "nuxt",
         "nuxt.config.ts": "nuxt",
-        ".oxlintrc.json": "oxlint",
-        ".oxfmtrc.json": "oxlint",
+        ".oxlintrc.json": "oxc",
+        ".oxfmtrc.json": "oxc",
         "aftman.toml": "package-config",
         "cargo.toml": "package-config",
         "composer.json": "package-config",
@@ -1078,7 +1078,7 @@
           "path": "./icons/dark/cs.svg"
         },
         "css": {
-          "path": "./icons/dark/css.svg"
+          "path": "./icons/dark/cssv1.svg"
         },
         "css3": {
           "path": "./icons/dark/css3.svg"
@@ -1215,8 +1215,8 @@
         "nix": {
           "path": "./icons/dark/nix.svg"
         },
-        "node": {
-          "path": "./icons/dark/node.svg"
+        "nodejs": {
+          "path": "./icons/dark/nodejs.svg"
         },
         "npm-lock": {
           "path": "./icons/dark/npm-lock.svg"
@@ -1230,8 +1230,8 @@
         "odin": {
           "path": "./icons/dark/odin.svg"
         },
-        "oxlint": {
-          "path": "./icons/dark/oxlint.svg"
+        "oxc": {
+          "path": "./icons/dark/oxc.svg"
         },
         "package-config": {
           "path": "./icons/dark/package-config.svg"
@@ -1251,19 +1251,19 @@
         "php": {
           "path": "./icons/dark/php.svg"
         },
-          "pnpm": {
+        "pnpm": {
           "path": "./icons/dark/pnpm.svg"
         },
-          "pnpm-lock": {
+        "pnpm-lock": {
           "path": "./icons/dark/pnpmlock.svg"
         },
         "powershell": {
           "path": "./icons/dark/powershell.svg"
         },
-          "prettier": {
+        "prettier": {
           "path": "./icons/dark/prettier.svg"
         },
-          "prettier-ignore": {
+        "prettier-ignore": {
           "path": "./icons/dark/prettierignore.svg"
         },
         "prisma": {
